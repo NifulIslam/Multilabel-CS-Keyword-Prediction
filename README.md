@@ -1,4 +1,4 @@
-# Multi-Label Keyword Prediction Project
+# Multi-Label Keyword Prediction 
 
 ![Search Image](https://github.com/NifulIslam/Multilabel-Keyword-Prediction/blob/master/images/search.png)
 
