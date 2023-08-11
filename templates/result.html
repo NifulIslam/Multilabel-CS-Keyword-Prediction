@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #b5d9ff, #66a3ff);
+            background-attachment: fixed;
+        }
+
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            height: 70px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-bottom: 2px solid #ddd;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: calc(100vh - 70px);
+            font-size: 24px;
+        }
+
+        .content {
+            max-width: 800px;
+            padding: 20px;
+            margin-top: 20px;
+            border: 2px solid #ddd;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .label {
+            font-weight: bold;
+        }
+
+        .output {
+            font-size: 20px;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head"><b>IEEE Keyword Prediction</b></div>
+    <div class="center">
+        <div class="content">
+            <label class="label">Title:</label><br />
+            {{ title }}<br /><br />
+            <label class="label">Abstract:</label><br />
+            {{ abstract }}<br /><br />
+            <label class="label">Keywords:</label><br />
+            <div class="output">{{ output_text }}</div>
+        </div>
+    </div>
+</body>
+
+</html>
