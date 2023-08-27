@@ -9,7 +9,7 @@ This project involves scraping data from IEEE Xplore specifically in the field o
 | DistilRoBERTa | 0.003506      | 0.004463         | 0.998828              |
 | DistilBERT | 0.005306      | 0.004990         | 0.998778              |
 
-After training, the model is compressed using ONNX. The compressed model is deployed on Hugging Face's model repository, and you can access it through this link: [Hugging Face Deployment](https://huggingface.co/spaces/NifulIslam/IEEE-Keyword-Prediction).
+After training, the model is compressed using ONNX. The model has 0.96 micro F1-score and 0.41 macro F1-score. The compressed model is deployed on Hugging Face's model repository, and you can access it through this link: [Hugging Face Deployment](https://huggingface.co/spaces/NifulIslam/IEEE-Keyword-Prediction).
 
 ## Model Deployment
 
