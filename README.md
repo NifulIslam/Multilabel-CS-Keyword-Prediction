@@ -1,8 +1,8 @@
-# Multi-Label Keyword Prediction 
+# Multi-Label CS Keyword Prediction 
 
 ![Search Image](https://github.com/NifulIslam/Multilabel-Keyword-Prediction/blob/master/images/search.png)
 
-This project involves scraping data from IEEE Xplore specifically in the field of machine learning (more than 50K data was scrapped). The collected data is used to train a multi-label (510 classes) keyword prediction model. The model is trained using two different Hugging Face transformer architectures, namely DistilRoBERTa and DistilBERT. The training results for both models are as follows:
+This project involves scraping data from IEEE Xplore specifically in the field of computer science (more than 50K data was scrapped). The collected data is used to train a multi-label (510 classes) keyword prediction model. The model is trained using two different Hugging Face transformer architectures, namely DistilRoBERTa and DistilBERT. The training results for both models are as follows:
 
 | Model       | Training Loss | Validation Loss | Training Accuracy (Multi) |
 |-------------|---------------|-----------------|-------------------|
