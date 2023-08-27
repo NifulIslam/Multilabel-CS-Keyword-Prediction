@@ -4,7 +4,7 @@
 
 This project involves scraping data from IEEE Xplore specifically in the field of machine learning (more than 50K data was scrapped). The collected data is used to train a multi-label (510 classes) keyword prediction model. The model is trained using two different Hugging Face transformer architectures, namely DistilRoBERTa and DistilBERT. The training results for both models are as follows:
 
-| Model       | Training Loss | Validation Loss | Training Accuracy |
+| Model       | Training Loss | Validation Loss | Training Accuracy (Multi) |
 |-------------|---------------|-----------------|-------------------|
 | DistilRoBERTa | 0.003506      | 0.004463         | 0.998828              |
 | DistilBERT | 0.005306      | 0.004990         | 0.998778              |
